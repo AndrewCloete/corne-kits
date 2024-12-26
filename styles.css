@@ -5,38 +5,3 @@
 html {
   font-family: "JetBrains Mono", monospace;
 }
-
-.carousel-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carousel-slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-slide {
-  min-width: 100%;
-}
-
-.carousel-nav {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-size: 2rem;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.carousel-nav-left {
-  left: -60px; /* Position to the left of the image */
-}
-
-.carousel-nav-right {
-  right: -60px; /* Position to the right of the image */
-}
