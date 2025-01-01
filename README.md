@@ -3,6 +3,6 @@
 watchexec source buildcss.sh
 
 # In another window
-npx live-server
+npx live-server --port=3001
 ```
 

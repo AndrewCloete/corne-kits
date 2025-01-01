@@ -30,7 +30,10 @@
           <p class="">
             This is ideal to get started with building your own keyboards since
             the main barrier to entry is usually <b>shipping</b> and
-            <b>minimum order QTYs</b> which this should help with.
+            <b>minimum order QTYs</b> which this should help with. I'm including
+            the sockets and aux connectors since they are the most tricky
+            components to source in SA. For the rest, I've included some
+            resources at the bottom of the page.
           </p>
           <br />
           <p class="">
@@ -99,12 +102,7 @@
               For <b>R1000</b> a set (5 left)
             </div>
             <img
-              src="./img/DSCF8841.JPG"
-              class="m-3 mx-auto rounded-xl"
-              alt=""
-            />
-            <img
-              src="./img/DSCF8842.JPG"
+              src="./img/cornev4_soon.jpeg"
               class="m-3 mx-auto rounded-xl"
               alt=""
             />
@@ -122,9 +120,151 @@
         </div>
 
         <div class="max-w-prose mx-auto text-lg">
-          <h1 class="text-3xl font-bold">Links</h1>
+          <h1 class="text-3xl font-bold">Where can I get the rest?</h1>
           <br />
-          <p class="">
+          <p>
+            <a
+              href="https://www.ctrlshiftesc.co.za/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 underline hover:text-blue-700"
+            >
+              www.ctrlshiftesc.co.za</a
+            >
+            is great for the switches. Their keycaps are overpriced IMO. Temu
+            has a wide selection of keykaps at good prices.
+
+            <a
+              href="https://share.temu.com/JdFVjbu9Q4A"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 underline hover:text-blue-700"
+            >
+              e.g.</a
+            >
+          </p>
+          <br />
+          <p>
+            Diodes (needed for v3 only) you can get from
+            <a
+              href="https://www.robotics.org.za/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 underline hover:text-blue-700"
+            >
+              MicroRobotics</a
+            >. I went for the
+            <a
+              href="https://www.robotics.org.za/1N4148"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 underline hover:text-blue-700"
+            >
+              1N4148</a
+            >
+            since they are more robust, but require some soldering prowes. You
+            can instead get the SMD diodes from them.
+            <b
+              >NB: Soldering the diodes requires
+              <u> patience and finesse</u>.</b
+            >
+            It is possible to break the pads on the PCB if you are rough with
+            them. So practice your soldering and take your time.
+          </p>
+          <br />
+          <p>
+            Micro controllers (needed for v3 only) you can also get from
+            MicroRobotics. Recently, they got the
+            <a
+              href="https://www.robotics.org.za/NRF52840-DEV"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 underline hover:text-blue-700"
+            >
+              NRF52840</a
+            >
+            which is great since you can run
+            <a
+              href="https://zmk.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 underline hover:text-blue-700"
+            >
+              ZMK</a
+            >
+            on it! <b>I also have 10 spare which I bulk ordered.</b> You can get
+            from me for the same price as Microrobotics. The 8-bit
+
+            <a
+              href="https://make.net.za/product/pro-micro-clone/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 underline hover:text-blue-700"
+            >
+              ProMicro</a
+            >
+            works fine too if you can source it. You can run
+
+            <a
+              href="https://qmk.fm/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 underline hover:text-blue-700"
+            >
+              QMK</a
+            >
+            on it.
+            <img
+              src="./img/nrf52840.png"
+              class="m-3 mx-auto rounded-xl"
+              alt=""
+            />
+          </p>
+          <br />
+          <p>
+            For the plates and base, I've modified a community design on OnShape
+            to fit my needs which you can find
+            <a
+              href="https://cad.onshape.com/documents/43f512ae4ce7c5d31bf42080/w/a670ea60a095ff880aa814b6/e/b52f65dc34870ff15862b887?renderMode=0&uiState=6774cd261d0f243c52997756"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 underline hover:text-blue-700"
+            >
+              here</a
+            >
+            to 3D print yourself. But there are lots of models available on
+            Thingiverse and Printables.
+            <img
+              src="./img/onshape.png"
+              class="m-3 mx-auto rounded-xl"
+              alt=""
+            />
+          </p>
+          <br />
+          <p>
+            I stronly recommend using round headers for the microcontrollers
+            rather than soldering it directly to the PCB. Unfortunately,
+            MicroRobotics have been
+
+            <a
+              href="https://www.robotics.org.za/CON-40P-ROUND"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 underline hover:text-blue-700"
+            >
+              out of stock</a
+            >
+            for a while now. You can help by pinging them to get more. (If you
+            can find some locally, please let me know).
+
+            <img
+              src="./img/round_headers.png"
+              class="m-3 mx-auto rounded-xl"
+              alt=""
+            />
+          </p>
+          <br />
+          <p>
             You can read more about my journey with split keyboards
             <a
               href="https://gist.github.com/AndrewCloete/c6600688e15b462824722a2ad9f68661"
@@ -132,8 +272,9 @@
               rel="noopener noreferrer"
               class="text-blue-500 underline hover:text-blue-700"
             >
-              here
-            </a>
+              here</a
+            >. I'll release a short video in early in 2025 giving an overview of
+            the soldering process and gotchas.
           </p>
           <br />
         </div>
